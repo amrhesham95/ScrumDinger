@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF2A8E0B266BFA900060AED6 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2A8E0A266BFA900060AED6 /* DailyScrum.swift */; };
 		EF58E786266BD8A3004BCA58 /* ScrumDingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF58E785266BD8A3004BCA58 /* ScrumDingerApp.swift */; };
 		EF58E788266BD8A3004BCA58 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF58E787266BD8A3004BCA58 /* MeetingView.swift */; };
 		EF58E78A266BD8A6004BCA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF58E789266BD8A6004BCA58 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF2A8E0A266BFA900060AED6 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		EF58E782266BD8A3004BCA58 /* ScrumDinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumDinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF58E785266BD8A3004BCA58 /* ScrumDingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumDingerApp.swift; sourceTree = "<group>"; };
 		EF58E787266BD8A3004BCA58 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF2A8E0D266BFA940060AED6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF2A8E0A266BFA900060AED6 /* DailyScrum.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EF58E779266BD8A3004BCA58 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 		EF58E784266BD8A3004BCA58 /* ScrumDinger */ = {
 			isa = PBXGroup;
 			children = (
+				EF2A8E0D266BFA940060AED6 /* Models */,
 				EF58E785266BD8A3004BCA58 /* ScrumDingerApp.swift */,
 				EF58E787266BD8A3004BCA58 /* MeetingView.swift */,
 				EF58E789266BD8A6004BCA58 /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF58E788266BD8A3004BCA58 /* MeetingView.swift in Sources */,
+				EF2A8E0B266BFA900060AED6 /* DailyScrum.swift in Sources */,
 				EF58E786266BD8A3004BCA58 /* ScrumDingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
