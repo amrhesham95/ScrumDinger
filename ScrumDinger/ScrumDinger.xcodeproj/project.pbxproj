@@ -13,6 +13,7 @@
 		EF58E78A266BD8A6004BCA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF58E789266BD8A6004BCA58 /* Assets.xcassets */; };
 		EF58E78D266BD8A6004BCA58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF58E78C266BD8A6004BCA58 /* Preview Assets.xcassets */; };
 		EF6B2406266BFBD4001280DD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B2405266BFBD4001280DD /* CardView.swift */; };
+		EF6B2409266CF6EA001280DD /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B2408266CF6EA001280DD /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EF58E78C266BD8A6004BCA58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF58E78E266BD8A6004BCA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6B2405266BFBD4001280DD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EF6B2408266CF6EA001280DD /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				EF58E78E266BD8A6004BCA58 /* Info.plist */,
 				EF58E78B266BD8A6004BCA58 /* Preview Content */,
 				EF6B2405266BFBD4001280DD /* CardView.swift */,
+				EF6B2408266CF6EA001280DD /* ScrumsView.swift */,
 			);
 			path = ScrumDinger;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				EF58E788266BD8A3004BCA58 /* MeetingView.swift in Sources */,
 				EF2A8E0B266BFA900060AED6 /* DailyScrum.swift in Sources */,
 				EF6B2406266BFBD4001280DD /* CardView.swift in Sources */,
+				EF6B2409266CF6EA001280DD /* ScrumsView.swift in Sources */,
 				EF58E786266BD8A3004BCA58 /* ScrumDingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
