@@ -13,7 +13,7 @@ struct ScrumsView: View {
   let scrums: [DailyScrum]
   var body: some View {
     List {
-      ForEach(scrums, id: \.title) {
+      ForEach(scrums) {
         CardView(scrum: $0)
           .listRowBackground($0.color)
       }
