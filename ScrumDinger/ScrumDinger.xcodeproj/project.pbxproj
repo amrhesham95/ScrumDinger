@@ -14,6 +14,7 @@
 		EF58E78D266BD8A6004BCA58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF58E78C266BD8A6004BCA58 /* Preview Assets.xcassets */; };
 		EF6B2406266BFBD4001280DD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B2405266BFBD4001280DD /* CardView.swift */; };
 		EF6B2409266CF6EA001280DD /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B2408266CF6EA001280DD /* ScrumsView.swift */; };
+		EF6B240C266E2092001280DD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6B240B266E2092001280DD /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EF58E78E266BD8A6004BCA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF6B2405266BFBD4001280DD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		EF6B2408266CF6EA001280DD /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		EF6B240B266E2092001280DD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				EF58E78B266BD8A6004BCA58 /* Preview Content */,
 				EF6B2405266BFBD4001280DD /* CardView.swift */,
 				EF6B2408266CF6EA001280DD /* ScrumsView.swift */,
+				EF6B240B266E2092001280DD /* DetailView.swift */,
 			);
 			path = ScrumDinger;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF58E788266BD8A3004BCA58 /* MeetingView.swift in Sources */,
+				EF6B240C266E2092001280DD /* DetailView.swift in Sources */,
 				EF2A8E0B266BFA900060AED6 /* DailyScrum.swift in Sources */,
 				EF6B2406266BFBD4001280DD /* CardView.swift in Sources */,
 				EF6B2409266CF6EA001280DD /* ScrumsView.swift in Sources */,
